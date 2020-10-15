@@ -1,0 +1,134 @@
+.header_row{
+  width: 100%;
+  height: 30%;
+  background-color: #557a95;
+  padding: 0;
+  margin: 0;
+  float: top
+}
+.mainInfo{
+  text-align: center;
+  float: left;
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 700;
+}
+.links{
+  width: 70%;
+  float: right;
+  padding-left: 50px;
+  padding-top: 20px
+}
+.mainBody{
+  width: 100%;
+  height: 70%;
+  padding: 0px, 0px;
+  background-image: url("assets/empty-Space.png");
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 400;
+  float: bottom;
+}
+.projects{
+  width: 60%;
+  height: 100%;
+
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 0px;
+  grid-auto-rows: 1fr;
+  float: left;
+  width: 100%;
+  height: 100%;
+  text-decoration: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20%;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #bb0000;
+  color: white;
+}
+.fa-github {
+  background: #a4c639;
+  color: white;
+}
+.project{
+  width: 45%;
+  height: 30%;
+  color: white;
+}
+.projImg{
+  width: 250px;
+  height: auto;
+}
+.project1{
+  float: left;
+  text-align: center;
+}
+.project3{
+  float: left;
+  text-align: center;
+}
+.project5{
+  float: left;
+  text-align: center;
+}
+.project2{
+  float: right;
+  text-align: center;
+}
+.project4{
+  float: right;
+  text-align: center;
+}
+.project6{
+  float: right;
+  text-align: center;
+}
+.userBio{
+  color: white;
+  display: block;
+  margin-top: 370px;
+}
+.musicAPI{
+  width: 392px;
+  height: 246px;
+}
+.PWGen{
+  height: 246px;
+  width: 316px;
+}
+.weatherApp{
+  height: 246px;
+  width: 392px;
+}
+.quiz{
+  height: 246px;
+  width: 316px;
+}
+.bio{
+  height: 246px;
+  width: 392px;
+}
+.dayplanner{
+  height: 246px;
+  width: 316px;
+}

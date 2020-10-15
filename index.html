@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- <div class ="container-fluid"> -->
+    <div class = "header_row row no-gutters">
+      <div class = "mainInfo col">
+          <p class = "name">Travis M. Cook</p>
+          <p class = "location">Greeley, Colorado</p>
+          <p class = "email">travismcook93@gmail.com</p>
+      </div>
+      <div class = "links col">
+        <a href="https://github.com/TravCook" class="fa fa-github"></a>
+        <a href="https://twitter.com/spillthe_TCook" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/smokeybear970/" class="fa fa-instagram"></a>
+        <a href="https://linkedin.com/in/travis-cook-01292a1b9" class="fa fa-linkedin"></a>
+      </div>
+    </div>
+    <div class = "mainBody row no-gutters">
+      <div class = "projects col-7" id="scene">
+        <div data-depth=".6"  class = "grid-container">
+          <div class = "project project1">
+            <img class = "musicAPI" src="assets/MUSIC-API.png">
+            <p>Playlist Creator</p> 
+          </div>
+          <div class = "project project2">
+            <img class = "PWGen" src="assets/PWGen.png">
+            <p>Password Generator</p>
+          </div>          
+          <div class = "project project3">
+            <img class = "weatherApp" src="assets/weatherApp.png">
+            <p>Forecast App</p>
+          </div>          
+          <div class = "project project4">
+            <img class = "quiz" src="assets/quiz.png">
+            <p>HTML Quiz</p>
+          </div>          
+          <div class = "project project5">
+            <img class = "bio" src="assets/BIO.png">
+            <p>Bio</p>
+          </div>          
+          <div class = "project project6">
+            <img  class = "dayplanner" src="assets/dayplanner.png">
+            <p>Day Planner App</p>
+          </div>        
+        </div>
+      </div>
+      <div class = "intro col-5 align-items-center" id="scene2">
+        <div class ="userBio" data-depth="2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, quos non itaque eaque nam, commodi expedita quod nulla distinctio laboriosam odio aspernatur, porro consectetur ratione! Porro, aspernatur natus! Ea, sapiente?</div>
+      </div>
+  <!-- </div> -->
+</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <script type ="text/javascript">
+  var scene = document.getElementById('scene');
+  var parallaxInstance = new Parallax(scene, {
+    relativeInput: true,
+    hoverOnly: true
+  });
+  var scene2 = document.getElementById('scene2');
+  var parallaxInstance = new Parallax(scene2, {
+    relativeInput: true,
+    hoverOnly: true
+  });
+  </script>
+</body>
+</html>
